@@ -1,15 +1,11 @@
-/*font-family: 'Lato', sans-serif;*/
-/*font-family: 'Rancho', cursive;*/
-
 body {
-  /* background-image: url('../images/wood-background.jpg'); */
   background-size: cover;
   background-color: antiquewhite;
   font-family: 'Lato', sans-serif;
 }
 
 .parallax-container {
-  height: 16rem;
+  height: 275px;
 }
 
 .title {
@@ -21,4 +17,52 @@ body {
 
 h2 {
   text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.email-address {
+  font-style: italic;
+  word-break: break-all;
+}
+
+.social {
+  height: 25px;
+  width: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 5.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+  }
 }
